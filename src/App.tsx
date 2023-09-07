@@ -1,19 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import styled from "styled-components";
 import {Box} from "./components/Box.styled";
+import Img from './images/Rectangle 1.png';
 
 function App() {
-  return (
-    <div className="App">
-      <Container>
-        <Box>
+    return (
+        <div className="App">
+            <Container>
+                <Box>
+                    <img src={Img} alt=""/>
+                    <h1>Headline</h1>
 
-        </Box>
-      </Container>
-    </div>
-  );
+                </Box>
+            </Container>
+        </div>
+    );
 }
 
 const Container = styled.div`
