@@ -2,22 +2,25 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import styled from "styled-components";
+import {Box} from "./components/Box.styled";
 
 function App() {
   return (
     <div className="App">
-      <Box>
+      <Container>
+        <Box>
 
-      </Box>
+        </Box>
+      </Container>
     </div>
   );
 }
 
-const Box = styled.div`
-  height: 350px;
-  width: 300px;
-  border-radius: 15px;
-  background-color: #fff;
+const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export default App;
