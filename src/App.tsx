@@ -11,7 +11,7 @@ function App() {
                 <Box>
                     <img src={Img} alt=""/>
                     <h1>Headline</h1>
-
+                    <p>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</p>
                 </Box>
             </Container>
         </div>

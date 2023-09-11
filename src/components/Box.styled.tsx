@@ -18,4 +18,14 @@ export const Box = styled.div`
     margin-left: 20px;
     margin-top: 10px;
   }
+  
+  p {
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ABB3BA;
+    margin: 20px;
+  ;
+  }
 `
